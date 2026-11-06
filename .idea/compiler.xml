@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for MS1" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.48/lombok-1.18.48.jar" />
+        </processorPath>
+        <module name="MS7" />
+        <module name="MS6" />
+        <module name="MS1" />
+        <module name="MS3" />
+        <module name="MS2" />
+        <module name="MS5" />
+        <module name="MS4" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MS1" options="-parameters" />
+      <module name="MS2" options="-parameters" />
+      <module name="MS3" options="-parameters" />
+      <module name="MS4" options="-parameters" />
+      <module name="MS5" options="-parameters" />
+      <module name="MS6" options="-parameters" />
+      <module name="MS7" options="-parameters" />
+    </option>
+  </component>
+</project>
