@@ -1,6 +1,6 @@
 # Projet Web Distribuees — Architecture Microservices
 
-Equipe de **6 membres** — **7 microservices metier** : 1 par membre + 1 microservice commun.
+Equipe de **6 membres** — **6 microservices metier** (Spring Boot, 1 par membre) + **1 module commun : WellNest AI Engine** (Python ou Node.js, voir [MS7/README.md](MS7/README.md)).
 
 > L'infrastructure (Eureka Server, API Gateway, Keycloak) sera ajoutee dans une etape ulterieure.
 
@@ -12,11 +12,11 @@ Equipe de **6 membres** — **7 microservices metier** : 1 par membre + 1 micros
 | MS4           | 8084 | ms4_db     | Membre 4       |
 | MS5           | 8085 | ms5_db     | Membre 5       |
 | MS6           | 8086 | ms6_db     | Membre 6       |
-| MS7 (commun)  | 8087 | ms7_db     | toute l'equipe |
+| MS7 AI Engine | 8087 | -          | toute l'equipe |
 
 > Renommez les `MSx` avec leur nom metier et remplacez les "Membre x" par les noms reels.
 
-## Structure d'un microservice
+## Structure d'un microservice Spring Boot (MS1 a MS6)
 
 ```
 tn.esprit.msX
@@ -53,4 +53,5 @@ donc `./mvnw test` fonctionne sans MySQL.
 - `master` : branche stable, pas de push direct
 - une branche par membre / fonctionnalite : `feature/ms3-gestion-xxx`
 - Pull Request + relecture par un autre membre avant merge
-- Chacun ne modifie **que son dossier MSx** ; les changements sur le MS commun (`MS7`) se font en concertation.
+- Chacun ne modifie **que son dossier MSx** ; les changements sur le module commun (`MS7`, AI Engine) se font en concertation.
+- Le contrat d'echange avec l'AI Engine (format commun) est defini dans `MS7/README.md`.
