@@ -14,7 +14,7 @@ Equipe de **6 membres** — **6 microservices metier** (Spring Boot, 1 par membr
 | MS6           | 8086 | ms6_db     | Membre 6       |
 | MS7 AI Engine | 8087 | -          | toute l'equipe |
 
-> Renommez les `MSx` avec leur nom metier et remplacez les "Membre x" par les noms reels.
+
 
 ## Structure d'un microservice Spring Boot (MS1 a MS6)
 
