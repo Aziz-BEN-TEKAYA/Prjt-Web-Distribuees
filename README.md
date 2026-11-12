@@ -1,4 +1,4 @@
-# Projet Web Distribuees — Architecture Microservices
+# WellNest— Architecture Microservices
 
 Equipe de **6 membres** — **6 microservices metier** (Spring Boot, 1 par membre) + **1 module commun : WellNest AI Engine** (Python ou Node.js, voir [MS7/README.md](MS7/README.md)).
 
