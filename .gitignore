@@ -17,3 +17,9 @@ HELP.md
 # OS
 .DS_Store
 Thumbs.db
+
+# Fichiers temporaires draw.io
+.$*.bkp
+.$*.dtmp
+*.drawio.bkp
+*.drawio.dtmp
