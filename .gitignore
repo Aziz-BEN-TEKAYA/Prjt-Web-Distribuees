@@ -23,3 +23,7 @@ Thumbs.db
 .$*.dtmp
 *.drawio.bkp
 *.drawio.dtmp
+
+# Diagrammes : seules les versions PNG sont versionnees (sources .drawio/.svg gardees en local)
+Documentation/Diagrams/*.drawio
+Documentation/Diagrams/*.svg

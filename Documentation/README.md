@@ -8,5 +8,5 @@
 
 ## Diagrammes disponibles
 
-- `Diagrams/architecture_globale.drawio` : version modifiable (ouvrir avec draw.io / diagrams.net)
-- `Diagrams/architecture_globale.svg` et `.png` : versions exportées
+- `Diagrams/architecture_globale.png` : architecture globale
+- `Diagrams/MS2_diagramme_classes.png` : diagramme de classes de MS2 (Physical Activity & Mobility)
