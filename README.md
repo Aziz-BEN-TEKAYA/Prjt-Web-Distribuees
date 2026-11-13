@@ -1,6 +1,6 @@
 # WellNest— Architecture Microservices
 
-Equipe de **6 membres** — **6 microservices metier** (Spring Boot, 1 par membre) + **1 module commun : WellNest AI Engine** (Python ou Node.js, voir [Backend/MS7/README.md](Backend/MS7/README.md)).
+Equipe de **6 membres** — **6 microservices metier** (Spring Boot, 1 par membre) + **1 module commun : WellNest AI Engine** (Python , voir [Backend/MS7/README.md](Backend/MS7/README.md)).
 
 ## Organisation du depot
 
@@ -15,17 +15,17 @@ Equipe de **6 membres** — **6 microservices metier** (Spring Boot, 1 par membr
     └── Diagrams/     # architecture globale et diagrammes du projet
 ```
 
-> L'infrastructure (Eureka Server, API Gateway, Keycloak) sera ajoutee dans une etape ulterieure.
+> L'infrastructure (Eureka Server, API Gateway, Keycloak) sera ajoutée dans une étape ultérieure.
 
 | Module        | Port | Base MySQL | Responsable    |
 |---------------|------|------------|----------------|
-| MS1           | 8081 | ms1_db     | Membre 1       |
-| MS2           | 8082 | ms2_db     | Membre 2       |
-| MS3           | 8083 | ms3_db     | Membre 3       |
-| MS4           | 8084 | ms4_db     | Membre 4       |
-| MS5           | 8085 | ms5_db     | Membre 5       |
-| MS6           | 8086 | ms6_db     | Membre 6       |
-| MS7 AI Engine | 8087 | -          | toute l'equipe |
+| MS1           | 8081 | ms1_db     | Fatma Boussaada       |
+| MS2           | 8082 | ms2_db     | Aziz ben Tekaya       |
+| MS3           | 8083 | ms3_db     | Jihen Sliti       |
+| MS4           | 8084 | ms4_db     | Mohamed Aziz garwachi      |
+| MS5           | 8085 | ms5_db     | Hiba Ben Youssef       |
+| MS6           | 8086 | ms6_db     | Molka Jmal      |
+| MS7 AI Engine | 8087 | -          | collectif |
 
 
 
