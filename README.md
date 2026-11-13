@@ -1,15 +1,18 @@
 # WellNest— Architecture Microservices
 
-Equipe de **6 membres** — **6 microservices metier** (Spring Boot, 1 par membre) + **1 module commun : WellNest AI Engine** (Python ou Node.js, voir [backend/MS7/README.md](backend/MS7/README.md)).
+Equipe de **6 membres** — **6 microservices metier** (Spring Boot, 1 par membre) + **1 module commun : WellNest AI Engine** (Python ou Node.js, voir [Backend/MS7/README.md](Backend/MS7/README.md)).
 
 ## Organisation du depot
 
 ```
 .
-├── backend/          # microservices
+├── Backend/          # microservices
 │   ├── MS1 ... MS6   # Spring Boot, une base MySQL chacun
 │   └── MS7           # WellNest AI Engine (Python ou Node.js)
-└── frontend/         # application Angular
+├── Frontend/         # application Angular
+└── Documentation/
+    ├── Presentation/ # presentation de la seance 4
+    └── Diagrams/     # architecture globale et diagrammes du projet
 ```
 
 > L'infrastructure (Eureka Server, API Gateway, Keycloak) sera ajoutee dans une etape ulterieure.
@@ -48,7 +51,7 @@ tn.esprit.msX
 2. Lancer le microservice :
 
 ```bash
-cd backend/MS1 && ./mvnw spring-boot:run
+cd Backend/MS1 && ./mvnw spring-boot:run
 ```
 
 Swagger : `http://localhost:808X/swagger-ui.html`
@@ -63,5 +66,5 @@ donc `./mvnw test` fonctionne sans MySQL.
 - `master` : branche stable, pas de push direct
 - une branche par membre / fonctionnalite : `feature/ms3-gestion-xxx`
 - Pull Request + relecture par un autre membre avant merge
-- Chacun ne modifie **que son dossier `backend/MSx`** ; les changements sur le module commun (`backend/MS7`, AI Engine) et sur `frontend/` se font en concertation.
-- Le contrat d'echange avec l'AI Engine (format commun) est defini dans `backend/MS7/README.md`.
+- Chacun ne modifie **que son dossier `Backend/MSx`** ; les changements sur le module commun (`Backend/MS7`, AI Engine) et sur `Frontend/` se font en concertation.
+- Le contrat d'echange avec l'AI Engine (format commun) est defini dans `Backend/MS7/README.md`.
